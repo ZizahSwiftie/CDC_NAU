@@ -17,6 +17,7 @@ namespace AkademikADOApp
         // Database configuration
         string connString = 
         @"Data Source=AZIZAH\AZIZAH; Initial Catalog=DBAkademikADO; Integrated Security=True";
+        // Global connection object
         SqlConnection conn;
         public Form1()
         {
