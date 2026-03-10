@@ -34,6 +34,7 @@ namespace AkademikADOApp
                 // Open the database tunnel
                 conn.Open();
 
+                // Update status label on success
                 lblStatus.Text = "Status : Database Connected"; 
                 MessageBox.Show("Koneksi ke database berhasil!"); 
             }
