@@ -31,6 +31,7 @@ namespace AkademikADOApp
             {
                 // Create new instance of connection
                 conn = new SqlConnection(connString);
+                // Open the database tunnel
                 conn.Open();
 
                 lblStatus.Text = "Status : Database Connected"; 
