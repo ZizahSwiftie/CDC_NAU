@@ -29,6 +29,7 @@ namespace AkademikADOApp
         {
             try
             {
+                // Create new instance of connection
                 conn = new SqlConnection(connString);
                 conn.Open();
 
