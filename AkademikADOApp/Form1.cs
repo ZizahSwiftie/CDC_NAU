@@ -21,6 +21,7 @@ namespace AkademikADOApp
         SqlConnection conn;
         public Form1()
         {
+            // Initialize Windows Forms components
             InitializeComponent();
         }
 
