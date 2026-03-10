@@ -14,6 +14,7 @@ namespace AkademikADOApp
 {
     public partial class Form1 : Form
     {
+        // Database configuration
         string connString = 
         @"Data Source=AZIZAH\AZIZAH; Initial Catalog=DBAkademikADO; Integrated Security=True";
         SqlConnection conn;
